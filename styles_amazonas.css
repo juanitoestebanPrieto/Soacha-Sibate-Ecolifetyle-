@@ -1,0 +1,102 @@
+/* ======== ESTILO GENERAL ======== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0fff5; /* tono cálido claro */
+  color: #1e3a1e;
+  line-height: 1.7;
+}
+
+/* ======== ENCABEZADO Y MENÚ ======== */
+header {
+  background: linear-gradient(90deg, #2e7d32, #66bb6a);
+  padding: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+.menu li a:hover {
+  background-color: #a5d6a7;
+  color: #1b5e20;
+  box-shadow: 0 0 10px rgba(255, 223, 186, 0.6);
+}
+
+/* ======== TÍTULOS ======== */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-top: 40px;
+}
+
+h2 {
+  color: #33691e;
+  margin: 30px auto 10px;
+  width: 80%;
+  font-size: 1.7rem;
+  border-left: 6px solid #81c784;
+  padding-left: 10px;
+}
+
+/* ======== PÁRRAFOS ======== */
+p {
+  width: 80%;
+  margin: 10px auto 30px;
+  text-align: justify;
+  font-size: 1.1rem;
+  background-color: #e8f5e9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* ======== IMÁGENES ======== */
+img {
+  display: block;
+  margin: 25px auto;         /* centra la imagen */
+  width: 40%;                /* ocupa el 80% del ancho del contenedor */
+  height: auto;              /* mantiene proporción */
+  border-radius: 10px;       /* esquinas suaves */
+  object-fit: contain;       /* muestra toda la imagen sin recortarla */
+}
+
+/* sin efectos al pasar el mouse */
+img:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.Imagen1{
+  width: 20%;
+}
+
+.Imagenes1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
